@@ -14,6 +14,7 @@ namespace WindowsFormsApp1
     {
         public Form1()
         {
+            MessageBox.Show("hello" + txtBxName.Text);
             InitializeComponent();
         }
 
